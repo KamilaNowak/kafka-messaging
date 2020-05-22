@@ -1,4 +1,4 @@
-package com.nowak.app.entities;
+package com.nowak.app.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

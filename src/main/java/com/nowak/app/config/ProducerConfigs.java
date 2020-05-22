@@ -1,7 +1,7 @@
 package com.nowak.app.config;
 
 import org.springframework.kafka.support.serializer.JsonSerializer;
-import com.nowak.app.entities.Message;
+import com.nowak.app.dtos.Message;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
@@ -35,4 +35,5 @@ public class ProducerConfigs {
     public KafkaTemplate<String, Message> kafkaTemplate(){
         return new KafkaTemplate<>(producerFactory());
     }
+
 }
