@@ -1,0 +1,8 @@
+[2020-05-18 12:35:37,348] INFO Starting the log cleaner (kafka.log.LogCleaner)
+[2020-05-18 12:35:37,409] INFO [kafka-log-cleaner-thread-0]: Starting (kafka.log.LogCleaner)
+[2020-05-18 12:47:21,274] INFO The cleaning for partition --important_tweets-2 is aborted and paused (kafka.log.LogCleaner)
+[2020-05-18 12:47:21,274] INFO The cleaning for partition --important_tweets-2 is aborted (kafka.log.LogCleaner)
+[2020-05-18 12:47:21,282] INFO The cleaning for partition --important_tweets-1 is aborted and paused (kafka.log.LogCleaner)
+[2020-05-18 12:47:21,282] INFO The cleaning for partition --important_tweets-1 is aborted (kafka.log.LogCleaner)
+[2020-05-18 12:47:21,290] INFO The cleaning for partition --important_tweets-0 is aborted and paused (kafka.log.LogCleaner)
+[2020-05-18 12:47:21,290] INFO The cleaning for partition --important_tweets-0 is aborted (kafka.log.LogCleaner)
